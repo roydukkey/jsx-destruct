@@ -4,6 +4,6 @@
  * @param context - The value to forward to the transform function.
  * @param scope - The function which will receive the given context.
  */
-export default function <P, F extends (context: P) => JSX.Element> (context: P, scope: F): JSX.Element {
+export default function <C, S extends (context: C) => JSX.Element> (context: C, scope: S): JSX.Element {
 	return scope(context);
 }
