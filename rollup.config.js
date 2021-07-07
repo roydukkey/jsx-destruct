@@ -1,5 +1,5 @@
 import license from 'rollup-plugin-license';
-import typescript from '@wessberg/rollup-plugin-ts';
+import typescript from 'rollup-plugin-ts';
 import { author, main, module, name, repository, version } from './package.json';
 
 
