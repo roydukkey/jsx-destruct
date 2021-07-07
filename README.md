@@ -3,7 +3,7 @@
 [![Release Version](https://img.shields.io/npm/v/jsx-destruct.svg)](https://www.npmjs.com/package/jsx-destruct)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-This tiny package allows you to unpack values directly in JSX statements. This helps avoid long object references and to keeps declarations joined within your components.
+This tiny package allows you to unpack values directly in JSX statements. This helps avoid long object references and keeps declarations joined within your components.
 
 ## Install
 
@@ -46,5 +46,5 @@ export function SampleComponent () {
 
 ## Inspiration
 
-1. jsx-control-statements [`<With />` control](https://github.com/AlexGilleran/jsx-control-statements#with-tag)
-1. Handlebars' [`#with` statement](https://handlebarsjs.com/guide/builtin-helpers.html#with)
+1. jsx-control-statements' [`<With />` component](https://github.com/AlexGilleran/jsx-control-statements#with-tag)
+1. Handlebars' builtin [`#with` helper](https://handlebarsjs.com/guide/builtin-helpers.html#with)
