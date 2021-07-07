@@ -34,9 +34,7 @@ export default [
 			format: 'es'
 		},
 		plugins: [
-			typescript({
-				transpiler: 'babel'
-			}),
+			typescript(),
 			...commonPlugins
 		]
 	},
@@ -49,7 +47,6 @@ export default [
 		},
 		plugins: [
 			typescript({
-				transpiler: 'babel',
 				tsconfig: (config) => ({
 					...config,
 					declaration: false
