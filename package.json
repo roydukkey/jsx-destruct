@@ -1,7 +1,7 @@
 {
 	"name": "jsx-destruct",
 	"description": "This tiny package allows you to unpack values directly in JSX statements",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"author": "roydukkey",
 	"license": "MIT",
 	"repository": {
