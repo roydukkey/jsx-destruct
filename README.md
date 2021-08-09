@@ -31,7 +31,7 @@ export function SampleComponent () {
     <Fragment>
       {isLoading && <p>Loading...</p>}
 
-      {data && destruct(data, ({ name, description, owner: { login } }) => (
+      {destruct(data, ({ name, description, owner: { login } }) => (
         <Fragment>
           <h1>{name}</h1>
           <h2>by {login}</h2>
